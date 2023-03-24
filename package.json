@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js",
-    "build": "webpack --mode production"
+    "dev": "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
@@ -22,8 +20,6 @@
     "sequelize": "^6.29.3"
   },
   "devDependencies": {
-    "nodemon": "^2.0.21",
-    "webpack": "^5.76.3",
-    "webpack-cli": "^5.0.1"
+    "nodemon": "^2.0.21"
   }
 }
