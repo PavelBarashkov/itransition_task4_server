@@ -5,9 +5,8 @@ const models = require('./models/models');
 const cors = require('cors');
 const router = require('./routes/index')
 const errorHandler = require('./milddleware/ErrorHandlingMiddleware');
-const { config } = require('config');
 
-const PORT = process.env.PORT || config.get('serverPort');
+const PORT = process.env.PORT
 
 const app = express();
 app.use(cors());
