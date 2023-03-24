@@ -1,0 +1,6 @@
+services:
+  - name: web
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    healthCheckPath: /
+    httpPort: 5000
