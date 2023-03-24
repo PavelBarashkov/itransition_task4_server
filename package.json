@@ -23,6 +23,7 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.21",
-    "webpack": "^5.76.3"
+    "webpack": "^5.76.3",
+    "webpack-cli": "^5.0.1"
   }
 }
