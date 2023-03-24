@@ -6,8 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "predeploy": "npm run build",
-    "deploy": "render deploy"
+    "build": "webpack --mode production"
   },
   "author": "",
   "license": "ISC",
