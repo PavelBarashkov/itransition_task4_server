@@ -15,6 +15,9 @@ router.get('/auth',authMiddleware, userController.check);
 // Получение списка всех пользователей
 router.get('/users', userController.getListUsers); 
 
+// Получение данных пользователя по id
+router.get('/users/:id', userController.getUserId);
+
 // Обновление данных пользователя по id
 router.put('/users/:id',userController.dataUpdateId);
 
